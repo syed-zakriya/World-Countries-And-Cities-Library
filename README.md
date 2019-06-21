@@ -16,3 +16,16 @@ Add the below dependency to the root level `build.gradle` file:
         maven { url 'https://jitpack.io' }
     }
 
+<h4>To get all the countries list and its 2-digit ISO country code use the below method:</h4>
+
+`HashMap<String,String> allCountries = CountriesData.getInstance().getAllCountries();`
+
+The cities of a country can be fetched in two ways.
+<h4>1. Using country name:</h4>
+
+`CitiesData.getInstance(context).getCitiesByCountryName("India");`
+
+<h4>2. Using 2-digit ISO country code:</h4>
+
+`CitiesData.getInstance(context).getCitiesByCountryCode("IN");`
+        
