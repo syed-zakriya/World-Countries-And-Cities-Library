@@ -10,7 +10,10 @@ public class CountriesData {
 
     private CountriesData(){
         if(mCountries==null)
+        {
             mCountries = new HashMap<>();
+            mCountries = getAllCountries();
+        }
         if(mCountryCityArrayMap==null)
             mCountryCityArrayMap = new HashMap<>();
     }
