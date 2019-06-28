@@ -7,7 +7,7 @@ You can fetch the major cities under each of the countries by passing the 2-digi
 
 Add the below line to the app level `build.gradle` file:
 
-`implementation 'com.github.syed-zakriya:World-Countries-And-Cities-Library:1.3'`
+`implementation 'com.github.syed-zakriya:World-Countries-And-Cities-Library:1.7'`
 
 Add the below dependency to the root level `build.gradle` file:
 
